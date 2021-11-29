@@ -1,3 +1,7 @@
+# React GraphQL 
+
+Fetch jobs from GraphQL Jobs API (https://api.graphql.jobs/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
