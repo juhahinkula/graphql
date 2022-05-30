@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React  from 'react';
 import './App.css';
 import {
   useQuery,
@@ -22,18 +22,18 @@ function App() {
   else {
     return (
       <div className="App">
-        <table>
-          <tbody>
+        <table>
+          <tbody>
             {
-              data.jobs.map((job, index) => 
-                <tr key={index}>
-                  <td>{job.title}</td>
-                  <td><a href={job.applyUrl}>{job.applyUrl}</a></td>
-                </tr>
-              )
-             }
+            data.jobs.map((job, index) =>
+              <tr key={index}>
+                <td>{job.title}</td>
+                <td><a href={job.applyUrl}>{job.applyUrl}</a></td>
+              </tr>
+            )
+          }
           </tbody>
-         </table>
+        </table>
       </div>
     );
   }
